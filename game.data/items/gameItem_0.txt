@@ -1,0 +1,5 @@
+Name: Apple
+Eat
+Eating speed: 4
+Saturation: 2
+Hunger Points: 2
