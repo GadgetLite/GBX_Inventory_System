@@ -25,8 +25,6 @@ namespace GBX {
 	{
 	private:
 		std::string name_;
-		std::string* lore_;
-		unsigned int loreSize_;
 		std::string* metadata_;
 		unsigned int metadataSize_;
 		static ItemMetaDataDefinitions definitions;
@@ -35,7 +33,6 @@ namespace GBX {
 	public:
 		unsigned int personalID;
 		Item(std::string name = "Undefined", bool overwriteFileLocation = true, bool buffer = true);
-		void addLore(std::string lore);
 		void addMetadata(std::string metadata, bool append = true);
 		std::string name();
 		void triggerItemEvent();
@@ -55,7 +52,7 @@ namespace GBX {
 		void removeItem();
 		void getItem();
 		void setItem();
-		void triggerItemEvent(unsigned int itemSlot);
+		void triggerItemEvent(unsigned int slot);
 		void print();
 		~Inventory();
 	};

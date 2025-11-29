@@ -8,27 +8,16 @@ void copyFile(std::string copy, std::string paste, bool overwrite, std::string f
 
 int main()
 {
-    // GBX::Inventory inv;
-    // GBX::Item* apple = new GBX::Item("Apple");
-    // GBX::Item* golden_sword = new GBX::Item("Golden Sword");
+    // GBX::Inventory inv1;
+    // GBX::Item* steak = new GBX::Item("Steak");
     // 
-    // apple->addMetadata("Eat");
-    // apple->addMetadata("Eating speed: 4");
-    // apple->addMetadata("Saturation: 2");
-    // apple->addMetadata("Hunger Points: 2");
-    // golden_sword->addMetadata("Attack");
-    // golden_sword->addMetadata("Damage: 3");
+    // steak->addMetadata("Eat");
+    // steak->addMetadata("Eating speed: 10");
+    // steak->addMetadata("Saturation: 15");
+    // steak->addMetadata("Hunger Points: 20");
     // 
-    // inv.addItem(apple);
-    // inv.addItem(golden_sword);
-    // 
-    // inv.print();
-    // inv.triggerItemEvent(0);
-    // std::string str = "Declarations/items.txt";
-    // std::string str1 = "Declarations/itemClasses.txt";
-
-    //writeToFile(str1, "Classes", 0);
-    //copyFile(str, str1, 1);
+    // inv1.addItem(steak);
+    // inv1.print();
 
     return 0;
 }
